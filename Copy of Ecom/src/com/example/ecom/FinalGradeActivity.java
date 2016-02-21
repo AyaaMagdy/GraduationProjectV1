@@ -32,7 +32,6 @@ public class FinalGradeActivity extends Activity {
 		i.putExtra("result",result);
 		startActivity(i);
         Log.v("y raaab",result.get(0).toString());
-      //Toast.makeText(this, result.get(0).toString(),Toast.LENGTH_LONG).show();
 
  }
 
