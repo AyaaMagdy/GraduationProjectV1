@@ -27,7 +27,6 @@ public class FinalGradeActivity extends Activity {
         FinalGradesJParser j=new FinalGradesJParser();
         Log.v("test", "Before");
         ArrayList<GradeModel> result=j.search_grades(studentId,"1", this);
-        Log.v("jjjjjjjjjjjj","hhhhhhhhhh");
        Intent i = new Intent(FinalGradeActivity.this,Show_resultActivity.class);
 		i.putExtra("result",result);
 		startActivity(i);
