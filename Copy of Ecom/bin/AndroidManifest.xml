@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecom"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ecom.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ecom.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.ecom.Activity2"
+            android:label="@string/title_activity_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.ecom.AttendanceActivity"
+            android:label="@string/title_activity_attendance" >
+        </activity>
+           <activity
+            android:name="com.example.ecom.Hy4oohActivity"
+            android:label="@string/title_activity_Hy4ooh" >
+        </activity>
+          <activity
+            android:name="com.example.ecom.ShowAttendanceActivity"
+            android:label="@string/title_activity_show_attendance" >
+        </activity>
+         <activity
+            android:name="com.example.ecom.FinalGradeActivity"
+            android:label="@string/title_activity_final_grade" >
+        </activity>
+         <activity
+            android:name="com.example.ecom.Show_resultActivity"
+            android:label="@string/title_activity_grades_result" >
+        </activity>
+    </application>
+
+</manifest>
