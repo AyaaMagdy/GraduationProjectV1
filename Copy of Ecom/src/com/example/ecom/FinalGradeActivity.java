@@ -14,7 +14,7 @@ import android.util.Log;
 import android.view.View;
 public class FinalGradeActivity extends Activity {
 
-    @Override
+    @Override         
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.final_grade);
@@ -26,7 +26,7 @@ public class FinalGradeActivity extends Activity {
         String studentId=sharedpreferences.getString("ID","empty");
         FinalGradesJParser j=new FinalGradesJParser();
         Log.v("test", "Before");
-        ArrayList<GradeModel> result=j.search_grades(studentId,"1", this);
+        ArrayList<GradeModel> result=j.search_grades(studentId,"1",this);
        Intent i = new Intent(FinalGradeActivity.this,Show_resultActivity.class);
 		i.putExtra("result",result);
 		startActivity(i);

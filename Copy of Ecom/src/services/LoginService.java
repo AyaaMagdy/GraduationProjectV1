@@ -118,7 +118,7 @@ public class LoginService extends AsyncTask<String,Void,String> {
 				MainActivity.getAppContext().startActivity(homeIntent);
 	    	}
 	        else{
-	    	  alertDialog.setMessage("Login Failed.......Try Again..");  
+	    	  alertDialog.setMessage("Login Failed....Try Again..");  
 	          alertDialog.show(); 
 	          Intent mainIntent = new Intent(MainActivity.getAppContext(),
 						MainActivity.class);

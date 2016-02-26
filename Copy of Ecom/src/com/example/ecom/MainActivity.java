@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
     public static  Context getAppContext() {
         return MainActivity.ctx;
     }
-   
+      
 
     public void Add(View v) throws JSONException {
     	

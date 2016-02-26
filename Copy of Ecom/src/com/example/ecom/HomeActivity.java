@@ -40,7 +40,14 @@ public class HomeActivity extends Activity {
 		
     }
 
-
-   
+    public void staffemails(View v)
+    {
+    	 
+  
+    	Intent mIntent=new Intent(HomeActivity.this ,Staff_emails.class);
+		startActivity(mIntent);
+		
+    }
+     
     
 }

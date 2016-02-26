@@ -5,10 +5,12 @@
     android:versionName="1.0" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    
 
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
+ 
 
     <application
         android:allowBackup="true"
@@ -36,21 +38,25 @@
             android:name="com.example.ecom.AttendanceActivity"
             android:label="@string/title_activity_attendance" >
         </activity>
-           <activity
+        <activity
             android:name="com.example.ecom.Hy4oohActivity"
             android:label="@string/title_activity_Hy4ooh" >
         </activity>
-          <activity
+        <activity
             android:name="com.example.ecom.ShowAttendanceActivity"
             android:label="@string/title_activity_show_attendance" >
         </activity>
-         <activity
+        <activity
             android:name="com.example.ecom.FinalGradeActivity"
             android:label="@string/title_activity_final_grade" >
         </activity>
-         <activity
+        <activity
             android:name="com.example.ecom.Show_resultActivity"
             android:label="@string/title_activity_grades_result" >
+        </activity>
+        <activity
+            android:name="com.example.ecom.Staff_emails"
+            android:label="@string/title_activity_staff_emails" >
         </activity>
     </application>
 

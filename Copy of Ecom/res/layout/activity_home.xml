@@ -37,5 +37,13 @@
         android:layout_centerVertical="true"
         android:onClick="attendance"
         android:text="Attendance" />
+    <Button
+        android:id="@+id/staffemailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:onClick="staffemails"
+        android:text="emil staff" />
 
 </RelativeLayout>
