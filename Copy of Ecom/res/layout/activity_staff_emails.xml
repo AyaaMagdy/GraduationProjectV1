@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Staff_emails" >
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select department" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ScrollView
+       android:id="@+id/layout" 
+    android:layout_height="match_parent"         
+    android:scrollbars="horizontal|vertical" 
+    android:layout_below="@+id/textView1"
+    android:layout_width="match_parent"     
+    android:layout_marginTop="5dip"     
+    android:scrollbarStyle="outsideInset"
+    android:fillViewport="true"> 
+
+    <HorizontalScrollView 
+        android:id="@+id/horizontalView" 
+        android:layout_height="wrap_content"     
+        android:scrollbars="horizontal|vertical" 
+        android:layout_width="wrap_content"     
+        android:layout_marginTop="5dip">
+        
+        <TableLayout
+            android:id="@+id/tblEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn"
+            android:layout_below="@+id/btn" >
+        </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/btn"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

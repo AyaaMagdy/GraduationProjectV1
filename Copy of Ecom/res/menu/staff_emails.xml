@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item
+        android:id="@+id/csMenu"
+        android:icon="@drawable/ic_launcher"
+        android:title="CS">
+    </item>
+<item
+        android:id="@+id/itMenu"
+        android:icon="@drawable/ic_launcher"
+        android:title="IT">
+    </item>
+    <item
+        android:id="@+id/isMenu"
+        android:icon="@drawable/ic_launcher"
+        android:title="IS">
+    </item>
+    <item
+        android:id="@+id/dsMenu"
+        android:icon="@drawable/ic_launcher"
+        android:title="DS">
+    </item>
+
+</menu>
