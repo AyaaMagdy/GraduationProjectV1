@@ -22,7 +22,6 @@ public class TableController
 	(String ID,Context ctx) throws JSONException, InterruptedException, ExecutionException
     {
 	 
-	// ArrayList<TableModel>coursesIDsAndGroups=new ArrayList<TableModel>(); 
         TableService c=new TableService(ctx);
         
         String year="2015";
