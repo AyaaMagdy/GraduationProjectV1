@@ -99,7 +99,7 @@ public class LoginService extends AsyncTask<String,Void,String> {
 	   protected void onPostExecute(String result) {  
 	    if(result.equals("Registration Success..."))  
 	    {  
-	      Toast.makeText(ctx, result, Toast.LENGTH_LONG).show();  
+	      Toast.makeText(ctx, result, Toast.LENGTH_LONG).show() ;  
 	    }  
 	     else  
 	    {  

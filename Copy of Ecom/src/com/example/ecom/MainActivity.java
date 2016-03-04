@@ -56,12 +56,12 @@ public class MainActivity extends Activity {
    
          LoginController j=new LoginController();
          Log.v("test", "Before");
-         j.insert_Person(s,s2,this);
+         j.insert_Person(s,s2,MainActivity.this);
          saveLoginCheckBox=(CheckBox) findViewById(R.id.saveLoginCheckBox);
      	if(saveLoginCheckBox.isChecked())
      	{
      	 sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
-     	 SharedPreferences.Editor editor = sharedpreferences.edit();
+     	 SharedPreferences.Editor editor = sharedpreferences.edit() ;
      	 editor.putString("ID",s);
      	 editor.putString("Password", s2);
      	 editor.commit();

@@ -45,6 +45,29 @@
         android:layout_below="@+id/Attendanceid"
         android:onClick="MatrialsLink"
         android:text="Helpful Matrials"/>
+    
+    <Button
+        android:id="@+id/GPAid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/Matrialsid"
+        android:onClick="GPA"
+        android:text="GPA"/>
+    
+    <Button
+        android:id="@+id/Agendaid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/GPAid"
+        android:onClick="Agenda"
+        android:text="Agenda"/>
+    
 
     <Button
         android:id="@+id/button1"
@@ -52,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/Matrialsid"
+        android:layout_below="@+id/Agendaid"
         android:layout_marginTop="67dp"
         android:onClick="logOut"
         android:text="logout" />
