@@ -6,44 +6,55 @@
 
     tools:context=".MainActivity" >
 
-
-    <Button
-        android:id="@+id/button1"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/Attendanceid"
-        android:layout_below="@+id/Attendanceid"
-        android:layout_marginTop="44dp"
-        android:onClick="logOut"
-        android:text="logout" />
-
     <Button
         android:id="@+id/gradeId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/Attendanceid"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
         android:onClick="grade"
         android:text="grades" />
+
+    <Button
+        android:id="@+id/staffemailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gradeId"
+        android:layout_marginTop="14dp"
+        android:onClick="staffemails"
+        android:text="email staff" />
 
     <Button
         android:id="@+id/Attendanceid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/staffemailid"
         android:onClick="attendance"
         android:text="Attendance" />
+
     <Button
-        android:id="@+id/staffemailid"
+        android:id="@+id/Matrialsid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:onClick="staffemails"
-        android:text="emil staff" />
+        android:layout_below="@+id/Attendanceid"
+        android:onClick="MatrialsLink"
+        android:text="Helpful Matrials"/>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Matrialsid"
+        android:layout_marginTop="67dp"
+        android:onClick="logOut"
+        android:text="logout" />
 
 </RelativeLayout>

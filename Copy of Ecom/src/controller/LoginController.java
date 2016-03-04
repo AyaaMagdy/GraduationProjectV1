@@ -15,7 +15,7 @@ public class LoginController {
     {
         LoginService c=new LoginService(ctx);
         Log.v("test","StartJson");
-        c.execute("http://10.0.2.2/grades/login.php",ID,Password);
+        c.execute("http://10.0.2.2/webapp/login.php",ID,Password);
      
         Log.v("test","FinishJson");
         

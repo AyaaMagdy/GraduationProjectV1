@@ -14,5 +14,6 @@
     <string name="title_activity_final_grade">finalGrades</string>
     <string name="title_activity_grades_result">GradesResults</string>
     <string name="title_activity_staff_emails">Staff_emails</string>
+    <string name="title_activity_matrial_links">MatrialLinks</string>
 
 </resources>

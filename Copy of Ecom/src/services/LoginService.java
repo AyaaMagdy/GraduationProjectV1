@@ -54,7 +54,7 @@ public class LoginService extends AsyncTask<String,Void,String> {
 			URL url = new URL(params[0]);
 		} catch (MalformedURLException e1) {
 			// TODO Auto-generated catch block
-			e1.printStackTrace();
+			e1.printStackTrace();   
 		}  
         DefaultHttpClient client = new DefaultHttpClient();
         
@@ -89,7 +89,7 @@ public class LoginService extends AsyncTask<String,Void,String> {
         } catch (Exception e) {
             e.printStackTrace();
             Log.v("test",e.toString());
-        }
+        }   
         
        
 

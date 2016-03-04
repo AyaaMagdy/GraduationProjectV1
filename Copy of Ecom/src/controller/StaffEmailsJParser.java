@@ -44,7 +44,7 @@ public class StaffEmailsJParser {
 	 	    else if(jobj.getString("Prof_Dr_TA").equals("2"))
 	 	    	se.setFlag("Dr");
 	 	    else se.setFlag("TA");
-	 	    stfEmails.add(se);
+	 	    stfEmails.add(se);  
      }
    
 

@@ -48,6 +48,15 @@ public class HomeActivity extends Activity {
 		startActivity(mIntent);
 		
     }
+    
+    public void MatrialsLink(View v)
+    {
+    	 
+  
+    	Intent mIntent=new Intent(HomeActivity.this ,MatrialLinks.class);
+		startActivity(mIntent);
+		
+    }
      
     
 }
